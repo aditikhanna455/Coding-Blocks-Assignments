@@ -1,0 +1,35 @@
+body{
+    background-color:rgb(190, 170, 158);
+}
+h1{
+    text-align: center;
+    color:rgb(36, 41, 36);
+    font-family: "garamond",serif;
+}
+div{
+    color: rgb(43, 43, 61);
+    background-color: rgb(202, 229, 248);
+    padding: 5px;
+    position: sticky;
+    top: 10px;
+}
+tr:nth-child(even){
+    background-color:rgb(95, 83, 83);
+}
+tr:nth-child(odd){
+    background-color: rgb(238, 211, 211);
+}
+table{
+    border: 1px;
+    width: 97%;
+    text-align: left;
+    margin: 20px;
+    border-bottom: slategray;
+}
+th{
+    background-color: rgb(137, 170, 202);
+}
+address{
+    text-align: right;
+    color: rgb(37, 39, 37);
+}

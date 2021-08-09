@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #ba9ccc">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-left:220px;margin-right:220px;margin-top:35px;">
+    <div class="container-fluid">
+      <a class="navbar-brand" style="font-weight: bold;" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">About</a>
+          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#">Languages</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="card mb-3" style="margin-left:220px;margin-right:220px;margin-top:25px;height:240px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="data:image/png;base64,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" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h3 class="card-title" style="margin-top:30px; margin-left: 10px;">Aditi Khanna</h3>
+          <p class="card-text" style="margin-left: 10px;">(Roll No.:1910990373)<br>I am a student of coding blocks.</p>
+          <button type="button" style="margin-left: 10px;" class="btn btn-outline-info">View Portfolio</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card" style="margin-left:220px;margin-right:220px;margin-top:25px;">
+    <div class="card-header">
+     <h4>About Me</h4> 
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0" style="font-weight: 400;font-family:serif;font-size: 15px;">
+        <p>I am a CSE student. I am skilled in Web-development currently working on html, css and javascript. I also work as a foster for kittens.</p>
+      </blockquote>
+    </div>
+  </div>
+  <div class="jumbotron jumbotron-fluid" style="margin-left:220px;margin-right:220px;background-color: white;margin-top: 25px;">
+    <h2 style="padding-top: 20px;padding-left: 25px;">Projects</h2>
+    <ul class="list-group">
+      <li class="list-group-item" style="margin-left:50px;margin-right:80px" >Smart Street Light</li>
+      <li class="list-group-item" style="margin-left:50px;margin-right:80px">Food-ordering website</li>
+      <li class="list-group-item" style="margin-left:50px;margin-right:80px;margin-bottom: 25px;">Weather App</li>
+    </ul>
+    </div>
+    <div class="jumbotron jumbotron-fluid" style="margin-left:220px;margin-right:220px;margin-bottom:40px;background-color: white;margin-top: 25px;">
+      <h2 style="padding-top: 20px;padding-left: 25px;">Languages</h2>
+      <ul class="list-group">
+        <li class="list-group-item" style="margin-left:50px;margin-right:80px" >Java</li>
+        <li class="list-group-item" style="margin-left:50px;margin-right:80px">HTML</li>
+        <li class="list-group-item" style="margin-left:50px;margin-right:80px">C/C++</li>
+        <li class="list-group-item" style="margin-left:50px;margin-right:80px">Javascript</li>
+        <li class="list-group-item" style="margin-left:50px;margin-right:80px;margin-bottom: 25px;">React Js</li>
+      </ul>
+      </div>
+</body>
+</html>
